@@ -1,0 +1,5 @@
+nombre = input("Dime el nombre del producto:")
+precio = float(input("Dime el precio:"))
+unidades = float(input("Dime el Nº de unidades:"))
+print(nombre, "cuesta", round(precio,2), "€ la unidad y tenemos", unidades, "unidades, por lo que el precio es de", round(unidades * precio,2), "€")
+input()

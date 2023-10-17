@@ -1,0 +1,5 @@
+a = input("Dime tu fecha de nacimiento:")
+n1 = (a.find("/"))
+n2 = (a.find("/", 3))
+print("Naciste el día",a[:n1],"del mes", a[n1+1:n2] ,"del año", a[-4:])
+input()
